@@ -29,28 +29,31 @@
   <!-- navbar-fixed -->
 
   <nav class="navbar navbar-expand-lg fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img class="logo" src="images\logo.jpg"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto links">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link home" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link pro" href="#">Projects</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link pro" href="#">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link about" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link pro" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link what" href="#">What We Do</a>
         </li>
       </ul>
     </div>
@@ -64,10 +67,10 @@
 
   <!-- Who-we-are -->
 
-  <div class="container">
+  <div class="container container1">
     <div class="row">
       <div id="intro" class="col-8">
-        <h1>Who We Are</h1>
+        <h1 class="who">Who We Are</h1><br /><br />
         <h2>Re-defining Digital Experiences London-Spain</h2>
         <p>We are a digital software and hardware company who develop our own bespoke software and hardware platforms
           allowing us to control every element of the detailed experience our clients require.</p>
@@ -84,12 +87,12 @@
           <li>Customer Support</li>
         </ul>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
         <div class="row">
-          <img src="http://fillmurray.com/300/150">
+          <img class="img-fluid image1" src="images\award.jpg">
         </div>
         <div class="row">
-          <img src="http://fillmurray.com/300/150">
+          <img class="img-fluid image2" src="images\tech.jpg">
         </div>
       </div>
     </div>
@@ -135,16 +138,16 @@
         </div>
         <div class="col-8">
           <div class="row">
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
           </div>
           <div class="row">
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
-            <div class="col-3"><img src="http://fillmurray.com/100/100"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
+            <div class="col-3"><img src="..." alt="..." class="img-thumbnail"></div>
           </div>
         </div>
       </div>
@@ -153,9 +156,10 @@
 
   <!-- Form -->
 
-  <div class="container">
-    <h2>Request a callback</h2>
-    <p>If you are interested in our products, software development, content creation or hardware solutions please
+  <div class="container-fluid formcontainer">
+    <h2 class="request">Request a callback</h2>
+    <p class="details">If you are interested in our products, software development, content creation or hardware
+      solutions please
       contact us with the details below. For support queries<a href="#"> visit the support desk.</a></p>
 
     <form>
@@ -177,10 +181,10 @@
     </form>
   </div>
 
-  <!-- logo -->
+  <!-- hp logo -->
 
   <div class="container">
-    <img src="http://fillmurray.com/200/100">
+    <img class="hp" src="images\hp.jpg">
   </div>
 
   <!-- footer -->
@@ -190,9 +194,9 @@
         <i class="fab fa-twitter"></i>
         <i class="fab fa-linkedin-in"></i>
       </div>
-      <div class="row">
+      <div class="row myrow">
         <a id="support" href="#">Support</a>
-        <i class="far fa-comment"></i>
+        <i id="bubble" class="far fa-comment"></i>
       </div>
       <div class="row" id="copyright">
         <div class="copy">&copy; 2019 Volume All Rights Reserved</div>
